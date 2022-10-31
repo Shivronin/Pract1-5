@@ -1,0 +1,18 @@
+﻿<Window x:Class="PracticVer._10.zad2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticVer._10"
+        mc:Ignorable="d"
+        Title="zad2" Height="324.145" Width="298.39" Closed="Window_Closed">
+    <Grid>
+        <TextBox x:Name="tb_text" HorizontalAlignment="Left" Height="23" Margin="128,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <Label Content="Введите текст:" HorizontalAlignment="Left" Margin="35,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="Результат:" HorizontalAlignment="Left" Margin="58,153,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbl_result" HorizontalAlignment="Left" Margin="128,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbl_result_Copy" HorizontalAlignment="Left" Margin="7,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Дана строка-предложение на русском языке. Вывести самое длинное слово в предложении (если таких слов несколько, то вывести первое из них)."/>
+        <Button x:Name="btn_start2" Content="Start" HorizontalAlignment="Left" Margin="105,219,0,0" VerticalAlignment="Top" Width="75" Click="btn_start2_Click"/>
+
+    </Grid>
+</Window>
